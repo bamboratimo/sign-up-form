@@ -21,11 +21,11 @@ body {
 .main-right {
     height: 100vh;
     width: 60vw;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 10vw;
+    padding-right: 11vw;
     padding-left: 5vw;
 }
 
@@ -62,13 +62,16 @@ body {
 }
 
 .right-text {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
-form {
+.form {
     background-color: #fff;
     margin-top: 50px;
     height: 300px;
+    padding: 20px 0 100px 20px;
+    margin-bottom: 50px;
 }
 
 .submit {
@@ -77,6 +80,7 @@ form {
     color: #fff;
     font-size: 1rem;
     border-radius: 5px;
+    margin-top: 60px;
 }
 
 .form-element {
@@ -92,4 +96,29 @@ form {
 
 input {
     width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    margin-bottom: 20px;
+    padding-left: 1px;
+}
+
+input:focus {
+    box-shadow: 3px 3px 4px #ccc;
+}
+
+.you-know {
+    margin-top: 50px;
+}
+
+.form-header {
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 0.6rem;
+    margin-bottom: 2px;
+}
+
+.have-acc {
+    margin-top: 20px;
 }
