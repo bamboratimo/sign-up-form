@@ -76,11 +76,12 @@ body {
 
 .submit {
     background-color: #596D48;
-    padding: 5px 30px;
+    padding: 10px 30px;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 40px;
+    border: none;
 }
 
 .form-element {
@@ -92,13 +93,13 @@ body {
 .form-row {
     display: flex;
     width: 500px;
+    margin-bottom: 20px;
 }
 
 input {
     width: 200px;
     border: 1px solid #E5E7EB;
     height: 25px;
-    margin-bottom: 20px;
     padding-left: 1px;
 }
 
@@ -121,4 +122,26 @@ label {
 
 .have-acc {
     margin-top: 20px;
+}
+
+.errorborder {
+    border: 1px solid red;
+}
+
+.valid {
+    border: 1px solid #E5E7EB;
+}
+
+.not-match-txt {
+    font-size: 0.6rem;
+    color: red;
+}
+
+.acc-link {
+    text-decoration: none;
+    color: #596D48;
+}
+
+a {
+    color: #fff;
 }

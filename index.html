@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
             <img class= "odin-img" src="odin-lined.png">
             <h1 class="odin-text">ODIN</h1>
         </div>
-        <p class="footer-text">Photo by Halie West on Unsplash</p>
+        <p class="footer-text">Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
     </div>
     <div class="main-right">
         <p class="right-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
@@ -24,38 +25,38 @@
                 <div class="form-row">
                     <div class="form-element">
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name"/>
+                        <input type="text" id="first-name" required/>
                     </div>
                     <div class="form-element">
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name"/>
+                        <input type="text" id="last-name" required/>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-element">
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email"/>
+                        <input type="email" id="email" name="email" required/>
                         </div>
                     <div class="form-element">
                         <label for="tele">PHONE NUMBER</label>
-                        <input type="tel" id="tele"/>
+                        <input type="tel" id="tele" required/>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-element">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" class="error"/>
+                        <input type="password" id="password" name="password" class="error" required/>
+                        <p class="not-match-txt">*Passwords do not match</p>
                     </div>
                     <div class="form-element">
                         <label for="confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm" class="error"/>
-                    <div class="form-element"></div>
-                </div>
+                        <input type="password" id="confirm" class="error" required/>
+                    </div>
             </div>
             </div>
             <button type="submit" class="submit">Create Account</button>
         </form>
-        <div class="have-acc">Already have an account? Log in</div>
+        <div class="have-acc">Already have an account? <a href="#" class="acc-link">Log in</a></div>
     </div>
 </body>
 </html>
