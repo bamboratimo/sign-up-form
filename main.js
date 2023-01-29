@@ -1,0 +1,1 @@
+let pwdFields = document.querySelectorAll(".error");
